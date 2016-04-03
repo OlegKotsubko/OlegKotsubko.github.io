@@ -18,6 +18,7 @@ li, img{
 }
 .container {
     width: 960px;
+    max-width: 1200px;
     height: auto;
     margin: 0 auto;
     margin-top: 3%;
@@ -41,6 +42,7 @@ filter: progid:DXImageTransform.Microsoft.dropshadow(offX=0, offY=0, color=#0000
 }
 .imgPizza {
     border-bottom: 1px solid #dedede;
+    position: relative;
 }
 .mainMenu {
     height: 499px;
@@ -49,7 +51,7 @@ filter: progid:DXImageTransform.Microsoft.dropshadow(offX=0, offY=0, color=#0000
     
 }
 .mainMenu>div {
-    margin-top: 6%;
+    margin: 6% 2%;
 }
 .header {
     margin-bottom: 2%;
@@ -59,15 +61,15 @@ filter: progid:DXImageTransform.Microsoft.dropshadow(offX=0, offY=0, color=#0000
     height: 80px;
 }
 .dough img {
-    margin: -37px -86px -2px 121px;
+    margin: -4% 1%;
     filter: alpha(Opacity=50);
     opacity: 0.5;
 }
 div.dough > img.active {
-    margin: -37px -86px -2px 121px;
     filter: alpha(Opacity=100);
     opacity: 1; 
 }
+
 .size ul{
     height: 80px;
     margin-left: 100px;
@@ -139,8 +141,9 @@ div.sauce > ul > li.active{
     position: inherit;
     display: -webkit-box;
     display: -moz-box;
-    display: -ms-box;
-    display: -o-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     
 }
 .sideComprises{
@@ -173,7 +176,6 @@ div.sauce > ul > li.active{
 .sideIngredients, .sideComprises{
     padding-left: 15px;
     margin-top: 2%;
-/*    display: table-cell;*/
     width: 482px;
     
 }
@@ -319,10 +321,10 @@ button {
     display: inline;
 }
 .cnstr-item-photo{
-    width: 28%;
     position: absolute;
-    top: 104px;
-    left: 247px;
+    top: 65px;
+    left: 68px;
+    width: 353px;
 }
 
 
